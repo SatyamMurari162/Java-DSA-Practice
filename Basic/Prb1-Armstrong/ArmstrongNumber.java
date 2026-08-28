@@ -4,7 +4,7 @@ class ArmstrongNumber {
     public static void main(String[] args) {
         int num = 0, res = 0, count = 0, sum = 0;
 
-        System.out.print("Enter ArmstrongNumber: ");
+        System.out.print("Enter Number: ");
         Scanner sc = new Scanner(System.in);
         num = sc.nextInt();
 
