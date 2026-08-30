@@ -20,9 +20,9 @@ public class StrongNumber {
         }
         
         if(sum == originalNum){
-            System.out.println(originalNum + " " + "is a perfect number");
+            System.out.println(originalNum + " " + "is a strong number");
         }else{
-            System.out.println(originalNum + " " + "is not a perfect number");
+            System.out.println(originalNum + " " + "is not a strong number");
         }
 
         sc.close();
