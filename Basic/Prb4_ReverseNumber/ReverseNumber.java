@@ -22,7 +22,6 @@ public class ReverseNumber {
             rev = rev * 10 + digits;
             n = n / 10;
         }
-
         return rev;
     }
 }
