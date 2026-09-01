@@ -19,7 +19,6 @@ public class Fibonacci {
             }
             System.out.print("The" + " " + n + "th Fibonacci Number is: "+ first);
         }
-        
         sc.close();
     }
 }
