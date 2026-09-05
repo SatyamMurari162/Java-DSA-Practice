@@ -9,7 +9,6 @@ public class CheckLeapYear {
         int year = sc.nextInt();
 
         boolean leap_year = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
-       
         if(!leap_year){
             System.out.println(year + " is not a leap year");
         }else{
