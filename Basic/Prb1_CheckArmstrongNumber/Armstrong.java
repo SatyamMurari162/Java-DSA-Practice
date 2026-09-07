@@ -1,5 +1,4 @@
 package Basic.Prb1_CheckArmstrongNumber;
-
 import java.util.Scanner;
 
 class Armstrong {
