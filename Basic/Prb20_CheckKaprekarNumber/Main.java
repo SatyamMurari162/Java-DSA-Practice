@@ -26,7 +26,6 @@ public class Main {
 
         int right = square % power;
         int left = square / power;
-
         if(right + left == n){
             System.out.println(n + " is a kaprekar number");
         }else{
