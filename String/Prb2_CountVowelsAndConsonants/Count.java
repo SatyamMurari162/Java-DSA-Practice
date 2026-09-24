@@ -7,10 +7,10 @@ public class Count {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter strikng: ");
+        System.out.print("Enter string: ");
         String str = sc.nextLine();
 
-        
+        System.out.println(str);
 
         sc.close();
     }
