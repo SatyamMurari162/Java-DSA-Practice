@@ -2,10 +2,10 @@ package String.Prb6_RemoveDuplicate;
 
 public class Main {
     public static void main(String[] args) {
-        String str = "programming";
+        String str = "hello";
 
         // Set <Character> set = new HashSet<>();
-        boolean[] seen = new boolean[256];
+        boolean[] seen = new boolean[128];
         StringBuilder sb = new StringBuilder();
 
         for(int i = 0; i<str.length(); i++){
@@ -17,5 +17,6 @@ public class Main {
             } 
         }
         System.out.println(sb.toString());
+        System.out.println("Count of unique letters: " + sb.length());
     }
 }
