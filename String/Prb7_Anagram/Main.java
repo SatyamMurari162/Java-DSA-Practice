@@ -7,7 +7,6 @@ public class Main {
 
         boolean result = CheckAnagram(str, str1);
         System.out.println(result);
-
     }
     public static boolean CheckAnagram(String str, String str1){
          if(str.length() != str1.length()){
@@ -27,6 +26,5 @@ public class Main {
         }
 
         return true;
-
     }
 }
